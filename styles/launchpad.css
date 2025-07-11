@@ -265,7 +265,7 @@ nav h1 {
     border-radius: 50px;
 }
 
-/* form section style */
+/* contact section style */
 .contact {
     padding: 80px 20px;
 }
@@ -328,4 +328,34 @@ textarea {
     font-size: 20px;
     border-radius: 10px;
     border: 1px solid #cbd5e1;
+}
+
+/* footer section style */
+.footer-section {
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+.text-contant{
+    padding: 0 500px;
+}
+.text-contant h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    padding-bottom: 8px;
+}
+
+.text-contant p{
+    color: #8987A1;
+}
+
+/* footer-navbar style */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #8987A1;
 }
