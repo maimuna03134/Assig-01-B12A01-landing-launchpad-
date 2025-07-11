@@ -238,7 +238,30 @@ nav h1 {
 
 /* focus section style */
 .focus {
-    padding: 50px 20px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 50px auto;
+    padding: 50px 150px;
     border-radius: 12px;
     margin-bottom: 60px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
+
+.focus h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+
+.focus p {
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+.focus img {
+    margin-top: 20px;
+    border-radius: 50px;
+}
+/* form section style */
