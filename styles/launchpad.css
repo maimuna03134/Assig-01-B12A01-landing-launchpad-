@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f5f8ff;
 }
+
 /* font-family style */
 .inter {
     font-family: "Inter", sans-serif;
@@ -35,11 +37,13 @@ body{
     padding: 10px 20px;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     color: #4E47FF;
     border: 2px solid #4E47FF;
 }
+
 .hero {
     background-image: url('../Assets/Hero-bg.png');
     background-position: center;
@@ -81,7 +85,8 @@ nav h1 {
     font-size: 60px;
     font-weight: bold;
 }
-.banner h2:hover{
+
+.banner h2:hover {
     font-size: 65px;
 }
 
@@ -121,11 +126,13 @@ nav h1 {
     margin: 30px auto;
     text-align: center;
 }
-.preview-img img{
+
+.preview-img img {
     border-radius: 48px;
 }
+
 /* rate section style */
-.rate{
+.rate {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 20px;
     width: 100%;
@@ -133,23 +140,105 @@ nav h1 {
     margin: 50px auto;
     padding: 40px 20px;
 }
-.rate h3{
+
+.rate h3 {
     font-size: 38px;
     font-weight: bold;
 }
-.rate-box{
+
+.rate-box {
     padding: 30px 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.rate-box .box h1{
+
+.rate-box .box h1 {
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
 }
-.rate-box .box p{
+
+.rate-box .box p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* review section style */
+.review {
+    width: 100%;
+    max-width: 1140px;
+    margin: 60px auto;
+}
+
+.review h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.review-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.review-box {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.box-img img {
+    padding: 4px;
+    float: left;
+}
+
+.box-description {
+    padding: 24px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.box-description h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.box-description p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(138, 137, 137);
+}
+
+.review-description {
+    display: flex;
+    align-items: center;
+}
+
+.review-description img {
+    border-radius: 50%;
+}
+
+.review-description h4 {
+    padding: 10px;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+}
+
+.review-description p {
+    padding: 0 10px;
+    text-align: left;
+    color: rgba(179, 179, 179, 1);
+}
+
+/* focus section style */
+.focus {
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
